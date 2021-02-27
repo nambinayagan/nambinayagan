@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @nambinayagan
+- 👋 Hi, I’m __Nambinayagan__
 - 👀 I’m interested in Automation | Linux | Cloud technologies
 - 🌱 I’m currently learning Cloud [AWS + GCP]
 - 💞️ I’m looking to collaborate on Cloud
