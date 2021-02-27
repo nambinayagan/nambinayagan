@@ -2,7 +2,7 @@
 - 👀 I’m interested in Automation | Linux | Cloud technologies
 - 🌱 I’m currently learning Cloud [AWS + GCP]
 - 💞️ I’m looking to collaborate on Cloud
-- 📫 How to reach me at [nambinayagan@gmail.com](nambinayagan@gmail.com)
+- 📫 How to reach me at [nambinayagan@gmail.com](mailto:nambinayagan@gmail.com)
 
 <!---
 nambinayagan/nambinayagan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
