@@ -1,0 +1,43 @@
+Create Billing Alarms in CloudWatch.
+After enabling Billing Alerts in Account Preferences, we just need to create a billing alarm to trigger notifications.
+
+
+Enable Billing Alerts in Account Preferences.
+CloudWatch is used to monitor billing and cost metrics, BUT we are required to enable Billing Alerts in our Account Preferences before being able to create billing alerts with CloudWatch.
+
+
+
+You can use CloudTrail log file integrity validation to determine whether a log file was modified, deleted, or unchanged after CloudTrail delivered it. Reference Documentation
+
+Your ElastiCache for Memcached cluster is showing 98% CPU utilization, so you can add more nodes to the cluster (scale out, horizontal scaling) in order to solve the performance issue during peak hours. Memcached clusters are composed of 1 to 40 nodes. Scaling a Memcached cluster out and in is as easy as adding or removing nodes from the cluster.
+
+Creating read replicas are designed to provide enhanced performance and durability for RDS database (DB) instances. Redundancy (High Availability) is achieved with Multi-AZ deployments. If the question proposed Aurora MySQL, this would be a valid answer. Aurora read replicas are used as failover targets and are automatically promoted when the primary instance in a cluster fails health checks but MySQL read replicas does not give automatic failover
+
+A Gateway-Cached implementation of Storage Gateway stores all of your data in AWS and caches your frequently-accessed data on premises. Keeping all data in AWS is not a minimal AWS implementation
+
+Imported keys must be manually rotated. Creating aliased for them will make this process easier.
+Enabling automatic key rotation will allow KMS to annually rotate the keys that it generated
+
+AWS Shield Advanced automatically alerts you to application layer attacks, including layer 7
+
+AWS WAF (Web Application Firewall) requires you to create rules permitting certain traffic, but doesn't alert on attacks
+AWS WAF (Web Application Firewall) allows you to create rules permitting certain traffic, including limiting IP traffic to certain geographical regions
+
+Amazon Inspector checks instances for listening TCP ports that don't receive any traffic during its assessment run.
+
+AWS Organizations uses the inverse tree architecture, which starts at the root and flows to any member or organizational unit.
+
+The master account is not affected by a service control policy
+
+Guardrails do allow you to set both preventative and detective controls to member accounts within Control Tower. Preventative guardrails apply to accounts with service control policies at the OU level, whether the account is enrolled or unenrolled. Detective guardrails enabled on OUs do not apply to unenrolled accounts
+
+cloudcanines.com is a Zone Apex, so you will need to use an alias record to map the Zone Apex to the DNS name of the Elastic Load Balancer
+
+AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time. However, it is not a service that enables you to create a monthly budget
+
+You can use Use AWS Budgets to set custom budgets based on your costs, usage, reservation utilization, and reservation coverage. With AWS Budgets, you can set budgets on a recurring basis or for a specific time frame. Budget alerts can be sent to up to 10 email addresses and one Amazon SNS topic per alert. You can set budgets to alert against either actual values or forecasted values.
+
+You cannot create custom dashboards using Cost Explorer. Cost Explorer does not allow you to display billing metrics data
+
+You can use CloudWatch to display billing metrics by service by creating a custom dashboard and adding a widget to display the metrics
+
