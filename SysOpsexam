@@ -1,3 +1,8 @@
+Dumps: https://www.examtopics.com/exams/amazon/aws-sysops/view/
+
+
+Notes:
+
 Create Billing Alarms in CloudWatch.
 After enabling Billing Alerts in Account Preferences, we just need to create a billing alarm to trigger notifications.
 
@@ -41,4 +46,37 @@ You cannot create custom dashboards using Cost Explorer. Cost Explorer does not 
 
 You can use CloudWatch to display billing metrics by service by creating a custom dashboard and adding a widget to display the metrics
 
-https://www.examtopics.com/exams/amazon/aws-sysops/view/
+
+
+Aurora is MySQL and Postgresql compatible
+Aurora and Aurora serverless are different and serverless is used when the usage is unknown
+
+Aurora >> 2 data copies in each AZ, so 6 copies + Self healing
+In Aurora if 100% CPu util and if write is causing it then scale up and read is causing issue then add read replicas
+
+
+RDS - Multi AZ 
+It is only used for disaster recovery and high availabilty
+If you need to increase performance then add readreplicas and Multi AZ wont be helpful
+When one AZ is down, the endpoint will be updated to other instance automatically
+We can manually change primary DB instance in MySQL rds by rebooting the instance
+backups and restore are taken from secondary instances
+
+
+RDS - Read replicas
+Upto 5 readreplicas can be there
+Can have read replicas in Multi region
+Replication is asyncronous
+
+
+Site to Site VPN
+Comunication between VPC and On prem network through a encrypted tunnel using IPsec
+VGW is needed in VPC
+Customer gateway is needed in on prem
+
+
+
+Direct connect
+PRIVATE Connection between VPC and Datacenter without internet
+Available speeds 1gbps, 10gbps 100 gbps
+secure and stable
