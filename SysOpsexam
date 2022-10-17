@@ -80,3 +80,50 @@ Direct connect
 PRIVATE Connection between VPC and Datacenter without internet
 Available speeds 1gbps, 10gbps 100 gbps
 secure and stable
+
+ACG Test2 >>
+
+You can use CloudWatch to display the service quotas for EC2 and configure alarms that alert you when your usage approaches a service quota
+
+CloudWatch cannot be used to alert you based on Trusted Advisor recommendations
+
+AWS Config enables continuous monitoring of your AWS resources, making it simple to assess, audit, and record resource configurations and changes. The AWS Config Auto Remediation feature automatically remediates noncompliant resources evaluated by AWS Config rules. Config integrates with Systems Manager to action the remediation tasks such as updating public read access settings in S3. Config also integrates with SNS to send notifications based on its findings.
+
+
+Since 2017, AWS customers have been able to modify the type of EBS volume without needing to snapshot the volume. This allows you to transition between volume types, such as gp2 and io1, transparently to the underlying operating system on the EC2 instance. Prior to this, the correct procedure would have been to arrange downtime, and manually snapshot and restore the volume in the correct volume type.
+
+The Classic Load Balancer metric SurgeQueueLength measures the total number of requests queued by your Classic Load Balancer. An increased maximum statistic for SurgeQueueLength indicates that backend systems aren't able to process incoming requests as fast as the requests are received. When requests exceed the maximum SurgeQueueLength, the SpilloverCount metric starts to measure rejected requests. The maximum SurgeQueueLength is 1024
+
+
+Increasing the value of the memcached_connections_overhead parameter will reduce the amount of memory available for storing items and provide a larger buffer for connection overhead
+
+When RDS undergoes a failover, the managed services do an update to the associated Route 53 record to ensure the RDS DNS endpoint points to the new primary host after the failover. The old host becomes a standby while the issue is addressed, and if it's not easily fixable, the standby instance is replaced
+
+S3 Intelligent-Tiering is designed for objects with unknown or unpredictable access patterns
+
+CloudFormation StackSets enable you to create, update, or delete stacks across multiple accounts and Regions with a single operation
+
+Patch Manager automate the process of patching managed instances with both security related and other types of updates. You can use Patch Manager to apply patches for both operating systems and applications. 
+
+The following policy types are available for use in AWS: identity-based policies, resource-based policies, permissions boundaries, organizations SCPs, access control lists (ACLs), and session policies.
+
+CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud. CloudHSM supports asymmetric keys (a different key is used to encrypt and decrypt the data). Inspector and Trusted Advisor are not encryption services. S3 encryption does not manage encryption keys
+
+AssumeRoleWithWebIdentity returns a set of temporary credentials (access key ID, secret access key, and security token) that give temporary access to AWS services.
+
+AssumeRoleWithWebIdentity returns a set of temporary credentials, giving the user temporary access to AWS. It also returns an Amazon Resource Name (ARN) and the assumed role ID, which are identifiers that you can use to refer to the temporary security credentials
+
+Federated identity allows users to log in to an external identity provider, receive an auth token, and exchange it for temporary AWS credentials
+
+When you create an OpenSearch (ElasticSearch) cluster, you specify whether it should have a public endpoint or reside within a VPC. Once created, you cannot switch from one to the other. Instead, you must create a new cluster and either manually reindex or migrate your data
+
+AWS Budgets allow you to create budgets based on cost, usage, reservation, and Savings Plans.
+
+Savings Plans is a pricing model allowing discounts on committed usage for EC2 and Fargate. AWS Budget allows you to measure unused and under-utilized Savings Plans and monitor how much instance usage is covered by savings plans.
+Budgets alerts are sent via email through SNS topics.
+
+Compute Optimizer analyzes the configuration and resource utilization of your workload to identify defining characteristics. For example, if a workload is CPU or network bandwidth-intensive, if it exhibits a daily pattern, or if a workload accesses local storage frequently
+
+AWS Compute Optimizer can recommend optimal resource configurations aligning with rightsizing recommendations to help improve cost and performance
+
+AWS Cost Explorer provides rightsizing recommendations
