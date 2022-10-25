@@ -135,6 +135,8 @@ Convertible Reserved Istances >> Same as above but we can change the instance ty
 
 Savings plan >> reservation based on instance family and not type and not number of instances but vCPUs
 
+Capacity Reservation >> Will pay for reserved capacity all the time irrespective of whether it is used or not. Will just make sure that the particular instance type capacity is available for you.
+
 SPOT REQUESTS  >> ASG for sopt instances. If one spot instance is stopped then Spot request will try to start other spot instance
 
-SPOT FLEETS >> Combination of spot and ondemand instances based on cost
+SPOT FLEETS >> Combination of spot and ondemand instances based on cost, plus felxible on choosing the lowest cost instance automatically
