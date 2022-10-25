@@ -127,3 +127,14 @@ Compute Optimizer analyzes the configuration and resource utilization of your wo
 AWS Compute Optimizer can recommend optimal resource configurations aligning with rightsizing recommendations to help improve cost and performance
 
 AWS Cost Explorer provides rightsizing recommendations
+
+
+Reseerved Instances >> Instance of specific instance type, OS, Tenancy is reserved for 1/3 years with upfront or no upfront payment and cant be sold in market store with other customers
+
+Convertible Reserved Istances >> Same as above but we can change the instance types
+
+Savings plan >> reservation based on instance family and not type and not number of instances but vCPUs
+
+SPOT REQUESTS  >> ASG for sopt instances. If one spot instance is stopped then Spot request will try to start other spot instance
+
+SPOT FLEETS >> Combination of spot and ondemand instances based on cost
