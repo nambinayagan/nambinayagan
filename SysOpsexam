@@ -140,3 +140,6 @@ Capacity Reservation >> Will pay for reserved capacity all the time irrespective
 SPOT REQUESTS  >> ASG for sopt instances. If one spot instance is stopped then Spot request will try to start other spot instance
 
 SPOT FLEETS >> Combination of spot and ondemand instances based on cost, plus felxible on choosing the lowest cost instance automatically
+
+Amazon Inspector >> For EC2 instance OS and ECR image vulnerability + Network reachbility
+Guard Duty >> Inteligent threat discovery for complete AWS account using various logs like ctrail, vpc, DNS + Also protects againts crypto mining/attacks.
