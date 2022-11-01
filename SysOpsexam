@@ -143,3 +143,22 @@ SPOT FLEETS >> Combination of spot and ondemand instances based on cost, plus fe
 
 Amazon Inspector >> For EC2 instance OS and ECR image vulnerability + Network reachbility
 Guard Duty >> Inteligent threat discovery for complete AWS account using various logs like ctrail, vpc, DNS + Also protects againts crypto mining/attacks.
+
+Macie is an service which uses machine learning to detect PII and sensitive data and send alerts.
+
+Trusted Advisor >> Core checks >> Cost Optimization, Performance, Security, fault tolerance, Service limits
+Can send week notifications and Progrmatic API access is available to Business or Enterprise plane only
+
+AWS Artifact >> Portal that provides cx with access to aws compliance, agreements and security documentations on demand
+
+Secrets manager >> Secret storing + Automatic rotation of secrets + usage with RDS
+
+AWS Amplify >> Web and mobile application development
+
+Amazon Elastic search (Open search) >> Production setup includes 3 master nodes across AZ and 2 data node per AZ which is a total of 6 data nodes
+
+Use S3 transfer acceleration - Amazon S3 Transfer Acceleration can speed up content transfers to and from Amazon S3 by as much as 50-500% for long-distance transfer of larger objects. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path
+
+Use AWS Data Migration - AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from the most widely used commercial and open-source databases
+
+Encryption can be enabelled on creation for RDS, EFS
