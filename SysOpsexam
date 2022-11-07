@@ -190,3 +190,9 @@ If your throughput is near or exceeding 20K packets per second (PPS) on the VIF 
 Enhanced Monitoring for RDS provides the following OS metrics: 1.Free Memory 2.Active Memory 3.Swap Free 4.Processes Running 5.File System Used
 
 Performance Insights collects metric data from the database engine to monitor the actual load on a database. Performance Insights will not help in gathering granular OS level metrics.
+
+share, you can configure your gateway to encrypt your objects with AWS KMS–managed keys by using SSE-KMS.
+
+Encrypting a volume: For cached and stored volumes, you can configure your gateway to encrypt volume data stored in the cloud with AWS KMS–managed keys by using the Storage Gateway API.
+
+Encrypting a tape: For a virtual tape, you can configure your gateway to encrypt tape data stored in the cloud with AWS KMS–managed keys by using the Storage Gateway API.
