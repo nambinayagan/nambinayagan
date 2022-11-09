@@ -202,4 +202,10 @@ Encrypting a volume: For cached and stored volumes, you can configure your gatew
 
 Encrypting a tape: For a virtual tape, you can configure your gateway to encrypt tape data stored in the cloud with AWS KMS–managed keys by using the Storage Gateway API.
 
-G
+A log group is a group of log streams that share the same retention, monitoring, and access control settings. You can define log groups and specify which streams to put into each group
+
+ElastiCache is a key value store used for caching data
+
+DynamoDB has no dedicated infrastructure footprint, and its cost is based on usage, performance, and storage. Since the data doesn't require a structured format, this is a viable solution
+
+While creating a cross-region read replica is the preferred method to recover from a regional failure, this answer is missing a step. If we promote the cross-region read replica, we also need to update the DNS records for our application to ensure they resolve to the new primary DB instance
