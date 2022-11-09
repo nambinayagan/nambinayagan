@@ -209,3 +209,13 @@ ElastiCache is a key value store used for caching data
 DynamoDB has no dedicated infrastructure footprint, and its cost is based on usage, performance, and storage. Since the data doesn't require a structured format, this is a viable solution
 
 While creating a cross-region read replica is the preferred method to recover from a regional failure, this answer is missing a step. If we promote the cross-region read replica, we also need to update the DNS records for our application to ensure they resolve to the new primary DB instance
+
+You can create Amazon CloudWatch alarms on the Service Quotas console to notify you when you're close to a quota value threshold
+
+You can prevent stack resources from being unintentionally updated or deleted during a stack update by using a stack policy. A stack policy is a JSON document that defines the update actions that can be performed on designated resources.
+
+VPC Flow log format
+<version> <account-id> <interface-id> <srcaddr> <dstaddr> <srcport> <dstport> <protocol> <packets> <bytes> <start> <end> <action> <log-status>
+
+CloudFormation, Lambda, and EC2 (amongst others) all natively support the Systems Manager Parameter Store. RDS doesn't have native support for Parameter Store but you can utilize Lambda in association with RDS to fulfill your requirements. Indeed you could utilize Lambda in addition with any service that doesn't natively support Parameter Store
+
