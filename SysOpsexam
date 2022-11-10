@@ -219,3 +219,8 @@ VPC Flow log format
 
 CloudFormation, Lambda, and EC2 (amongst others) all natively support the Systems Manager Parameter Store. RDS doesn't have native support for Parameter Store but you can utilize Lambda in association with RDS to fulfill your requirements. Indeed you could utilize Lambda in addition with any service that doesn't natively support Parameter Store
 
+Predictive Scaling requires a minimum of 2 weeks worth of data before it can provision resources based on your normal activity
+
+OpsWorks Stacks models your application as a stack consisting of multiple layers, e.g., database, web server, application, load balancer, etc
+
+io2 EBS storage is the best solution. It is resilient to hardware failure and can provide up to 64,000 IOPS per volume and 80,000 per instance
