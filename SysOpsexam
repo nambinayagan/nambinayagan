@@ -239,3 +239,9 @@ CloudWatch ServiceLens enhances the observability of your services and applicati
 
 For Lambda, Amazon SNS, Amazon SQS, and Amazon CloudWatch Logs resources, EventBridge relies on resource-based policies. For Kinesis streams, EventBridge relies on IAM roles.
 
+It isn't possible to restore or recover a deleted or deregistered AMI
+Capacity Reservations can be used with neither placement groups nor Dedicated Hosts.
+Capacity Reservations are not transferable from one AWS account to another. However, you can share Capacity Reservations with other AWS accounts.
+
+
+
