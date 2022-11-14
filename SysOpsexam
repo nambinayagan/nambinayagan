@@ -224,3 +224,18 @@ Predictive Scaling requires a minimum of 2 weeks worth of data before it can pro
 OpsWorks Stacks models your application as a stack consisting of multiple layers, e.g., database, web server, application, load balancer, etc
 
 io2 EBS storage is the best solution. It is resilient to hardware failure and can provide up to 64,000 IOPS per volume and 80,000 per instance
+
+If you use an Amazon S3 bucket configured as a website endpoint, you must set it up with CloudFront as a custom origin. You can’t use the origin access identity feature. However, you can restrict access to content on a custom origin by setting up custom headers and configuring your origin to require them.
+
+if you use an Amazon S3 bucket configured as a website endpoint, you can’t use the origin access identity feature.
+
+You can retrieve custom metrics from your applications or services using the StatsD and collectd protocols. StatsD is supported on both Linux servers and servers running Windows Server. collectd is supported only on Linux servers. Here, the instances are running on Windows servers
+
+You can use Amazon CloudWatch Synthetics to create canaries, configurable scripts that run on a schedule, to monitor your endpoints and APIs. Canaries follow the same routes and perform the same actions as a customer, which makes it possible for you to continually verify your customer experience even when you don't have any customer traffic on your applications. By using canaries, you can discover issues before your customers do.
+
+Capacity Reservations do not offer any billing discounts. You can combine Capacity Reservations with Savings Plans or Regional Reserved Instances to receive a discount.
+
+CloudWatch ServiceLens enhances the observability of your services and applications by enabling you to integrate traces, metrics, logs, and alarms into one place
+
+For Lambda, Amazon SNS, Amazon SQS, and Amazon CloudWatch Logs resources, EventBridge relies on resource-based policies. For Kinesis streams, EventBridge relies on IAM roles.
+
