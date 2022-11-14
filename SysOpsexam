@@ -243,5 +243,16 @@ It isn't possible to restore or recover a deleted or deregistered AMI
 Capacity Reservations can be used with neither placement groups nor Dedicated Hosts.
 Capacity Reservations are not transferable from one AWS account to another. However, you can share Capacity Reservations with other AWS accounts.
 
+T2 Unlimited instances can sustain high CPU performance for as long as a workload needs it. For most general-purpose workloads, T2 Unlimited instances will provide ample performance without any additional charges. If the instance needs to run at higher CPU utilization for a prolonged period, it can also do so at a flat additional rate of 5 cents per vCPU-hour.
 
+Cognito User pool >> With user pool ur user can login to ur web or game using amazon cognito
+Cognito Identity pool >> With Identity pool, ur user can obtain temporary aws credentials to access aws resources
+
+AWS Systems Manager Inventory provides visibility into your Amazon EC2 and on-premises computing environment. You can use Inventory to collect metadata from your managed instances
+
+You should note that only the bucket owner (root account) can enable MFA Delete only via the AWS CLI. However, the bucket owner, the AWS account that created the bucket (root account), and all authorized IAM users can enable versioning
+
+Redis vs Memcached >> https://aws.amazon.com/elasticache/redis-vs-memcached/
+
+Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale. It's a fully managed, multi-region, multi-master, durable database with built-in security, backup and restore, and in-memory caching for internet-scale applications. DAX is a DynamoDB-compatible caching service that enables you to benefit from fast in-memory performance for demanding applications. DAX cannot be used as a caching layer for a relational database.
 
