@@ -256,3 +256,5 @@ Redis vs Memcached >> https://aws.amazon.com/elasticache/redis-vs-memcached/
 
 Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale. It's a fully managed, multi-region, multi-master, durable database with built-in security, backup and restore, and in-memory caching for internet-scale applications. DAX is a DynamoDB-compatible caching service that enables you to benefit from fast in-memory performance for demanding applications. DAX cannot be used as a caching layer for a relational database.
 
+IAM supports only one type of resource-based policy called a role trust policy
+
