@@ -258,3 +258,11 @@ Amazon DynamoDB is a key-value and document database that delivers single-digit 
 
 IAM supports only one type of resource-based policy called a role trust policy
 
+Security Hub needs AWS Config to be enabled for resource recording.
+
+Compute optimizer can work on Ec2, EBS, ASG and Lambda
+
+AWS WAF logs can be sent only to Kinesis firehose
+
+Kibana + Elastic search >> SAML based authentication
+
