@@ -281,3 +281,6 @@ Diff between Cloudwatch events and Eventbridge >> In Eventbridge we can create c
 WAF Cloudwatch metrics are near realtime
 
 WAF logs can be transfered only to Kinesis Data firehose
+
+SessionDuration in SAML is a optional feild shld be grater than 15mins and less 12hrs and default is 1hr
+
