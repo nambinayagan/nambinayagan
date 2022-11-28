@@ -266,3 +266,18 @@ AWS WAF logs can be sent only to Kinesis firehose
 
 Kibana + Elastic search >> SAML based authentication
 
+Datasync task needs to be created in destination region
+
+All files in S3 glacier is encrypted by default using AwS managed keys
+
+If eviction is high in memcached cluster then scale out or scale up (both works)
+
+Aws Backup uses "Vault" to store backups
+
+DDOSdetected and AWSDDOSProtectionmetrics is a Cloudwatch metric and not a event
+
+Diff between Cloudwatch events and Eventbridge >> In Eventbridge we can create custom event bus and also archive old events and replay them
+
+WAF Cloudwatch metrics are near realtime
+
+WAF logs can be transfered only to Kinesis Data firehose
