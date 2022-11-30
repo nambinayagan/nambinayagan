@@ -284,3 +284,14 @@ WAF logs can be transfered only to Kinesis Data firehose
 
 SessionDuration in SAML is a optional feild shld be grater than 15mins and less 12hrs and default is 1hr
 
+Elastic cache Redis is complex than memcached
+
+Amazon ElastiCache supports the Memcached and Redis cache engines. Each engine provides some advantages. Choose Memcached if the following apply to you: 1. You need the simplest model possible. 2. You need to run large nodes with multiple cores or threads. 3. You need the ability to scale out and in, adding and removing nodes as demand on your system increases and decreases. 4. You need to cache objects.
+
+Amazon-issued certificates can’t be installed on an EC2 instance. To enable end-to-end encryption for the given use case, you must use a third-party SSL certificate which should be installed on the EC2 instances. Then, associate the third-party certificate with a load balancer by importing it into AWS Certificate Manager (ACM).
+
+ Amazon S3 website endpoints don't support HTTPS.
+ 
+ ACM does not provide certificates for anything other than the SSL/TLS protocols.
+ 
+ 
